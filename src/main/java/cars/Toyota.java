@@ -2,7 +2,12 @@ package cars;
 
 public class Toyota extends Car {
 
-    public Toyota(String vin) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Toyota(String vin) {
         super(vin);
         electric = false;
     }

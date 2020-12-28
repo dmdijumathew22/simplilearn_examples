@@ -4,7 +4,12 @@ import java.io.Serializable;
 
 public class Car implements Serializable {
 
-    String vin;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	String vin;
 
     boolean electric = false;
 
